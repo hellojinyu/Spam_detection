@@ -1,0 +1,29 @@
+Metadata-Version: 2.0
+Name: cabfile
+Version: 1.0.0
+Summary: Cabinet file reader for python
+Home-page: http://bitbucket.org/krisvale/pycabinet/
+Author: Kristján Valur Jónsson
+Author-email: sweskman@gmail.com
+License: OTHER
+Keywords: archiving cabinet
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Topic :: System :: Archiving
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+
+cabfile
+=======
+This is a simple python module providing the ability to read windows .cab files.
+It provides a CabtFile object with a similar functionality to zipfile.ZipFile.
+
+Based on the cabinet SDK, available from http://support.microsoft.com/kb/310618
+Also reuses some code from zipfile.py
+
+Since it uses ctypes to interface with the cabinet.dll file included with windows,
+this code works on Windows only.
+
+
