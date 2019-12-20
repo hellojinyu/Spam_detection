@@ -6,6 +6,6 @@ SS:测试样例中spam被判断为spam的数量
 SH:测试样例中spam被判断为ham的数量
 HS:测试样例中ham被判断为spam的数量
 HH:测试样例中ham被判断为ham的数量
-Precision=\frac{SS}{SS+HS}*100\%
-Recall=\frac{SS}{SS+SH}*100\%
-F1=\frac{2*SS}{2*SS+HS+SH}*100\%
+$Precision=\frac{SS}{SS+HS}*100\%$
+$Recall=\frac{SS}{SS+SH}*100\%$
+$F1=\frac{2*SS}{2*SS+HS+SH}*100\%$
