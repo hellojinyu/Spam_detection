@@ -5,6 +5,6 @@
    * [SH:测试样例中spam被判断为ham的数量](#sh测试样例中spam被判断为ham的数量)
    * [HS:测试样例中ham被判断为spam的数量](#hs测试样例中ham被判断为spam的数量)
    * [HH:测试样例中ham被判断为ham的数量](#hh测试样例中ham被判断为ham的数量)
-   * [Precision=SS/(SS+HS)*100%](#Precision=SS/(SS+HS)*100)
+   * [精确率：Precision=SS/(SS+HS)*100%](#Precision=SS/(SS+HS)*100)
    * [召回率：Recall=SS/(SS+SH)*100%](#召回率：Recall=SS/(SS+SH)*100%)
    * [F1值：F1=2*SS/(2*SS+HS+SH)](#F1值：F1=2*SS/(2*SS+HS+SH))
